@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
 </Project>
